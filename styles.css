@@ -1,0 +1,333 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 1% 2%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+hr {
+    border: dotted #A4907C 6px;
+    border-bottom: none;
+    width: 9%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-left: 640px;
+}
+
+
+/* Sections */
+
+.coloured-section {
+    background-color: #27374D;
+    color: #F6F1E9;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.white-section {
+    background-color: #F6F1E9;
+    color: #27374D;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 3%;
+}
+
+/* Navigation Brand */
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.download button {
+    margin: 5% 3% 5% 0;
+}
+
+.search-bar {
+    padding-left: 18%;
+}
+
+/* Title Image */
+
+.title-image {
+    position: absolute;
+    width: 25%;
+    top: 9%;
+    right: 12%;
+
+}
+
+/* Features Section */
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+.icon {
+    color: #454545;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FFD95A;
+}
+
+/* Introduction Video */
+#Introduction Video {
+    position: absolute;
+    
+}
+
+/* Services Section */
+
+
+.Contact-us {
+    width: 70%;
+    margin: 30px;
+    
+}
+
+.ask {
+    margin-top: 40px;
+}
+
+.Gifting {
+    width: 70%;
+    margin: 30px;
+}
+
+.Personalisation {
+    width: 70%;
+    margin: 30px;
+}
+/* About Us Page */
+
+#about-us {
+    padding: 7% 6%;
+}
+
+#vision {
+    padding: 1%;
+}
+
+.v-and-m {
+    width: 50%;
+    margin: 33px auto 33px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.Vision-img {
+    width: 50%;
+    float: left;
+    margin-right: 120%;
+    padding-bottom: 3%;
+}
+
+.Mission-img {
+    width: 50%;
+    float: right;
+    margin-left: 120%;
+    padding-bottom: 3%;
+}
+
+.vision-statement {
+    width: 120%;
+}
+
+.mission-statement {
+    width: 120%;
+}
+/* Contact Us Page */
+
+#Contact {
+    padding: 27px;
+    text-align: center;
+}
+
+.contact-coloumn {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title { text-align: center;
+
+    }
+
+    .title-image {
+        position: static;
+    }
+}
+
+
+.card {
+    border: #ccc;
+}
+
+/* LOT */
+#LOT {
+    padding: 2%;
+
+}
+
+/* Footer */
+
+#Footer {
+    padding: 1%;
+    text-align: center;
+
+}
+
+.v-and-m {
+    width: 50%;
+    margin: 42px auto 42px auto;
+    text-align: left;
+}
+
+.Linkedin-link {
+    padding: 6px;
+}
+
+.Twitter-link {
+    padding: 6px;
+}
+
+.Instagram-link {
+    padding: 6px;
+}
+
+.copyright {
+    padding: 1%;
+}
+
+/* Clothes products */
+
+.clothes-1 {
+    width: 41.5%;
+}
+
+.clothes-2 {
+    width: 38%;
+}
+
+.clothes-3 {
+    width: 36.5%;
+}
+.handbag-1 {
+    width: 63%;
+}
+.handbag-2 {
+    width: 42%;
+}
+.handbag-3 {
+    width: 52.5%;
+}
+
+.shoes {
+    width: 58.5%;
+}
+
+.belt {
+    width: 56%;
+}
+
+.watch {
+    width: 63%;
+}
+
+#clothes {
+    padding: 27px;
+    text-align: center;
+}
+
+.clothes-coloumn {
+    padding: 2% 2%;
+}
+
+#handbag {
+    padding: 27px;
+    text-align: center;
+}
+
+.handbag-coloumn {
+    padding: 2% 3%;
+}
+
+#other-product {
+    padding: 27px;
+    text-align: center;
+}
+.shoes-coloumn {
+    padding: 2% 3%;
+}
+
+.belt-coloumn {
+    padding: 2% 3%;
+}
+
+.watch-coloumn {
+    padding: 2% 3%;
+}
+
+.card-footer {
+    border: #ccc;
+}
+
+/* Signup and Log-In */
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"],
+  .container input[type="submit"]  {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
